@@ -1,0 +1,9 @@
+#body{
+  /*color: white;*/
+
+background-image: url('images/floor.jpg');
+background-size: contain;
+background-attachment: fixed;
+/*background-repeat: no-repeat;*/
+  /*background-image: url('/Users/cbuggelli/Desktop/FlatironLabs/javascript/deli project/images/floor.jpg') no-repeat top center;*/
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+        <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <title>Delis</title>
+  </head>
+  <body id="body">
+    <h1>Deli API</h1>
+    <div class="container" background>
+      <div id="deliContainer">
+        <div class="row">
+          <div class="col m12 align="center"">
+            <form id="newSearch">
+              <input type="text" placeholder="Spot Type" id="foodType" name="type">
+              <input type="text" placeholder="zipcode" id="zipcode" name="zipcode">
+
+              <input type="submit" id="searchButton" value="SEARCH MON"></input>
+            </form>
+          </div>
+
+          <div id="infoHolder">
+          </div>
+
+        </div>
+
+    </div>
+  </div>
+
+
+
+
+
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"></script>
+      <script src="source/view/resto.js">
+      </script>
+      <script src="index.js">
+      </script>
+  </body>
+</html>
